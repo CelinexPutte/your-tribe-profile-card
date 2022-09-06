@@ -85,7 +85,11 @@ img {
   box-shadow:0 0 2px 2px rgba(0,0,0,.2);
   position:relative;
   top:2rem;
-  transition:.25s .15s;
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.15);
 }
 
 dl {

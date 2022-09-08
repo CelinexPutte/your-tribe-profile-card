@@ -46,7 +46,8 @@ h1 {
 }
 
 h1.back {
-  color:#ff5bd9
+  color:#ff5bd9;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -79,10 +80,14 @@ article > p {
   width:100%;
 }
 
-li {
+ul {
   text-align: left;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 a {
   color: rgb(106, 0, 255);
+  display: block;
 }

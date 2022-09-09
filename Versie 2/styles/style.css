@@ -8,10 +8,27 @@ html {
 }
 
 body {
-  height:100vh;
+  perspective: 600px;
+}
+
+.business-card {
+  transform-style: preserve-3d;
+  position: relative;
   display:flex;
   justify-content:center;
   align-items:center;
+  height:100vh;
+  transition: transform 1s;
+  width: max-content;
+  margin: auto;
+}
+
+.business-card.flip {
+  transform: rotateY(180deg);
+}
+
+.business-card.flip article.back {
+  pointer-events: all;
 }
 
 article.front {
@@ -21,24 +38,40 @@ article.front {
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
+  z-index: 1;
+  backface-visibility: hidden;
 }
 
 article.back {
   width: 20em;
   height: 30em;
-  background-color: #fff;
+  background: linear-gradient(0deg, rgba(243, 205, 231) 50%, #ff5bd9 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
-  position: relative;
-  border: #ff5bd9 solid 0.5em;
+  position: absolute;
+  transform: rotateY(180deg);
+  pointer-events: none;
+}
+
+article.back::before {
+  content: '';
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  background-color: #fff;
+  border-radius:0.5rem;
 }
 
 header.front {
   text-align: center;
+  margin-top: 3rem;
 }
 
 header.back {
   margin: 2em;
+  position: relative;
 }
 
 h1 {
@@ -51,8 +84,9 @@ h1.back {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   font-style: italic;
+  margin-top: 4rem;
 }
 
 img {
@@ -90,4 +124,9 @@ ul {
 a {
   color: rgb(106, 0, 255);
   display: block;
+}
+
+p.ps {
+  font-size: 0.5rem;
+  margin-top: 3.5rem;
 }

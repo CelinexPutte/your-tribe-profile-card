@@ -1,8 +1,8 @@
 <h1>Opdracht:</h1>
 In de eerste week van de opleiding moesten we een online visitiekaartje maken. Op deze manier maken we kennis met HTML, CSS en JS.
 
-<h1>Progressie:</h1>
-Ik ben begonnen met het bewerken van het voorbeeld. Nadat ik de kleuren en de tekst had aangepast, kwam ik er achter dat ik heel veel niet snapte uit de code. Voor versie 2 heb ik alles wat ik niet begreep verwijderd en ook nog wat toegevoegd aan het idee ten opzichte van mijn laatste schets. Vanaf dit punt heb ik veel moeten vragen om te kunnen uitwerken wat mijn idee was. Ook naar aanleiding van feedback heb ik nog wat aanpassingen gedaan. Uiteindelijk is alles gelukt en ben ik tevreden met het resultaat.
+<h1>Uitleg:</h1>
+Met dit visitekaartje wil ik mijzelf vertegenwoordigen. Op de voorkant zie je een foto van mij, mijn naam en een quote die ik leuk vind. Als je vervolgens op de kaart klikt, draait deze om. Hier zie je dan wat informatie over mij, mijn hobby's en wat linkjes voor contactgegevens. Als je vervolgens weer op het kaartje klikt, krijg je weer de voorkant te zien.
 
 <h1>Laatste schets:</h1>
 

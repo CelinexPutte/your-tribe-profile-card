@@ -86,7 +86,7 @@ h1.back {
 h2 {
   font-size: 0.8em;
   font-style: italic;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 img {
@@ -95,14 +95,14 @@ img {
   border:5px solid #fff;
   box-shadow:0 0 2px 2px rgba(0,0,0,.2);
   transition: 1s;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 img:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
 }
 
 article > p {
